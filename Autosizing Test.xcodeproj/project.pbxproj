@@ -12,6 +12,7 @@
 		067081EE1E461E2600AD6115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067081EC1E461E2600AD6115 /* Main.storyboard */; };
 		067081F01E461E2600AD6115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067081EF1E461E2600AD6115 /* Assets.xcassets */; };
 		067081F31E461E2600AD6115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067081F11E461E2600AD6115 /* LaunchScreen.storyboard */; };
+		067081FB1E461F0100AD6115 /* giphy-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 067081FA1E461F0100AD6115 /* giphy-2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		067081EF1E461E2600AD6115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067081F21E461E2600AD6115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		067081F41E461E2600AD6115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067081FA1E461F0100AD6115 /* giphy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				067081E81E461E2600AD6115 /* AppDelegate.swift */,
 				067081EA1E461E2600AD6115 /* ViewController.swift */,
 				067081EC1E461E2600AD6115 /* Main.storyboard */,
+				067081FA1E461F0100AD6115 /* giphy-2.gif */,
 				067081EF1E461E2600AD6115 /* Assets.xcassets */,
 				067081F11E461E2600AD6115 /* LaunchScreen.storyboard */,
 				067081F41E461E2600AD6115 /* Info.plist */,
@@ -127,6 +130,7 @@
 				067081F31E461E2600AD6115 /* LaunchScreen.storyboard in Resources */,
 				067081F01E461E2600AD6115 /* Assets.xcassets in Resources */,
 				067081EE1E461E2600AD6115 /* Main.storyboard in Resources */,
+				067081FB1E461F0100AD6115 /* giphy-2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
