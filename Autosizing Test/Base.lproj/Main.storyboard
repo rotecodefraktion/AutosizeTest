@@ -22,22 +22,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cg3-Lr-Nsp">
-                                <rect key="frame" x="68" y="1051" width="849.5" height="257"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cg3-Lr-Nsp">
+                                <rect key="frame" x="30" y="1099" width="964" height="257"/>
                                 <subviews>
-                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giphy-2.gif" translatesAutoresizingMaskIntoConstraints="NO" id="pcw-SE-nnD">
-                                        <rect key="frame" x="0.0" y="0.0" width="436" height="257"/>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giphy-2.gif" translatesAutoresizingMaskIntoConstraints="NO" id="pcw-SE-nnD">
+                                        <rect key="frame" x="0.0" y="0.0" width="467" height="257"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Wyg-7c-wVg">
-                                        <rect key="frame" x="466" y="0.0" width="383.5" height="257"/>
+                                        <rect key="frame" x="497" y="0.0" width="467" height="257"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Luke:" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGy-Ye-gV0">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Luke:" textAlignment="natural" lineBreakMode="tailTruncation" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="lGy-Ye-gV0">
                                                 <rect key="frame" x="0.0" y="0.0" width="233" height="197"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ich bin Dein Vater" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJM-wA-KZB">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ich bin Dein Vater" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="none" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="JJM-wA-KZB">
                                                 <rect key="frame" x="0.0" y="197" width="383.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <nil key="textColor"/>
@@ -46,12 +46,23 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="pcw-SE-nnD" firstAttribute="leading" secondItem="cg3-Lr-Nsp" secondAttribute="leading" id="3ib-4Z-WZW"/>
+                                    <constraint firstItem="Wyg-7c-wVg" firstAttribute="top" secondItem="cg3-Lr-Nsp" secondAttribute="top" id="GOc-qa-7Cw"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wyg-7c-wVg" secondAttribute="trailing" id="KNx-ki-FG4"/>
+                                    <constraint firstAttribute="bottom" secondItem="pcw-SE-nnD" secondAttribute="bottom" id="Q7u-4Y-Pae"/>
+                                    <constraint firstItem="Wyg-7c-wVg" firstAttribute="leading" secondItem="pcw-SE-nnD" secondAttribute="trailing" constant="30" id="TmF-cy-UZs"/>
+                                    <constraint firstItem="Wyg-7c-wVg" firstAttribute="leading" secondItem="pcw-SE-nnD" secondAttribute="trailing" constant="30" id="WAb-ks-4li"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wyg-7c-wVg" secondAttribute="bottom" id="cMe-5K-S33"/>
+                                    <constraint firstItem="pcw-SE-nnD" firstAttribute="top" secondItem="cg3-Lr-Nsp" secondAttribute="top" id="rmK-ib-xCK"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cg3-Lr-Nsp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="48" id="CxL-I4-mAk"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cg3-Lr-Nsp" secondAttribute="bottom" constant="58" id="qfC-H4-DMs"/>
+                            <constraint firstItem="cg3-Lr-Nsp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="CxL-I4-mAk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wyg-7c-wVg" secondAttribute="trailing" constant="10" id="Lef-aS-XQg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cg3-Lr-Nsp" secondAttribute="bottom" constant="10" id="qfC-H4-DMs"/>
                         </constraints>
                     </view>
                 </viewController>
