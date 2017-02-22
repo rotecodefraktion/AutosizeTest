@@ -306,6 +306,7 @@
 				067081F91E461E2600AD6115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
